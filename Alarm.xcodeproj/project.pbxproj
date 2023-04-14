@@ -17,6 +17,9 @@
 		30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */; };
 		30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */; };
 		30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E529E97D39007A39DA /* TimeModel.swift */; };
+		30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E729E98579007A39DA /* AlarmModel.swift */; };
+		30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E929E9875F007A39DA /* ActivityConstants.swift */; };
+		30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3EB29E987DC007A39DA /* SoundConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupportFunctions.swift; sourceTree = "<group>"; };
 		30CEE3E529E97D39007A39DA /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		30CEE3E729E98579007A39DA /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		30CEE3E929E9875F007A39DA /* ActivityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConstants.swift; sourceTree = "<group>"; };
+		30CEE3EB29E987DC007A39DA /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				30CEE3DE29E968FA007A39DA /* ColorConstants.swift */,
+				30CEE3E929E9875F007A39DA /* ActivityConstants.swift */,
+				30CEE3EB29E987DC007A39DA /* SoundConstants.swift */,
 			);
 			path = Constans;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				30CEE3E529E97D39007A39DA /* TimeModel.swift */,
+				30CEE3E729E98579007A39DA /* AlarmModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,8 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
+				30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
+				30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */,
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
+				30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */,
 				30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */,
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
