@@ -16,6 +16,7 @@
 		30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3DE29E968FA007A39DA /* ColorConstants.swift */; };
 		30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */; };
 		30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */; };
+		30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E529E97D39007A39DA /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		30CEE3DE29E968FA007A39DA /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupportFunctions.swift; sourceTree = "<group>"; };
+		30CEE3E529E97D39007A39DA /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		309A8EFF29E85F7A00EF7EDA /* Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				30CEE3E429E97D1B007A39DA /* Model */,
 				304F318B29E8690A00B8E1F9 /* Group */,
 				304F318A29E868FB00B8E1F9 /* ViewModel */,
 				304F318929E868EC00B8E1F9 /* Views */,
@@ -178,6 +181,14 @@
 				309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30CEE3E429E97D1B007A39DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30CEE3E529E97D39007A39DA /* TimeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
+				30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */,
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
