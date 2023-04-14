@@ -14,6 +14,8 @@
 		309A8F0529E85F7B00EF7EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A8F0429E85F7B00EF7EDA /* Assets.xcassets */; };
 		309A8F0829E85F7B00EF7EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */; };
 		30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3DE29E968FA007A39DA /* ColorConstants.swift */; };
+		30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */; };
+		30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		309A8F0429E85F7B00EF7EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30CEE3DE29E968FA007A39DA /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
+		30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupportFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		304F318629E868CA00B8E1F9 /* Time And Date */ = {
 			isa = PBXGroup;
 			children = (
+				30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */,
 			);
 			path = "Time And Date";
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				304F318F29E86A4D00B8E1F9 /* GrayedTextView.swift */,
+				30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			files = (
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
+				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
+				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
