@@ -20,6 +20,12 @@ struct GrayedTextView: View {
 
 struct GrayedTextView_Previews: PreviewProvider {
     static var previews: some View {
-        GrayedTextView(text: "Hello")
+        ScrollView {
+            VStack(alignment: .leading, spacing: 30) {
+                GrayedTextView(text: "No Alarms.", font: .title)
+                GrayedTextView(text: "to Anton's page", font: .title)
+                GrayedTextView(text: "The UI for this nice Alarm app was largely inspired by the amazing work of Anton Leogky.", font: .title)
+            }
+        }
     }
 }
