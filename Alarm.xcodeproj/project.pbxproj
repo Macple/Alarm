@@ -28,6 +28,7 @@
 		30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */; };
 		30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */; };
 		30E4DD4829EDFBC1005CE6BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */; };
+		30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4929EDFFC4005CE6BA /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
 		30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
 		30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		30E4DD4929EDFFC4005CE6BA /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				309A8F0229E85F7A00EF7EDA /* MainAlarmView.swift */,
 				30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */,
+				30E4DD4929EDFFC4005CE6BA /* AboutView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
+				30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
 			);
