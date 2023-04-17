@@ -24,6 +24,10 @@
 		30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E929E9875F007A39DA /* ActivityConstants.swift */; };
 		30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3EB29E987DC007A39DA /* SoundConstants.swift */; };
 		30E4DD4029ED7D85005CE6BA /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD3F29ED7D85005CE6BA /* ImageConstants.swift */; };
+		30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */; };
+		30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */; };
+		30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */; };
+		30E4DD4829EDFBC1005CE6BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,10 @@
 		30CEE3E929E9875F007A39DA /* ActivityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConstants.swift; sourceTree = "<group>"; };
 		30CEE3EB29E987DC007A39DA /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
 		30E4DD3F29ED7D85005CE6BA /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
+		30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
+		30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 				30CEE3E929E9875F007A39DA /* ActivityConstants.swift */,
 				30CEE3EB29E987DC007A39DA /* SoundConstants.swift */,
 				30E4DD3F29ED7D85005CE6BA /* ImageConstants.swift */,
+				30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */,
 			);
 			path = Constans;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 		304F318D29E869C800B8E1F9 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -159,6 +169,8 @@
 				30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */,
 				30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */,
 				30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */,
+				30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */,
+				30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -297,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */,
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
 				30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
@@ -304,10 +317,13 @@
 				30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */,
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
 				30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */,
+				30E4DD4829EDFBC1005CE6BA /* ButtonView.swift in Sources */,
 				30E4DD4029ED7D85005CE6BA /* ImageConstants.swift in Sources */,
+				30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */,
 				30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */,
 				30C9B80E29ED6C2500EFBD12 /* CoolTextView.swift in Sources */,
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
+				30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
