@@ -16,6 +16,7 @@
 		30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */; };
 		30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */; };
 		30C1D5DF29EF5131007D6624 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5DE29EF5131007D6624 /* TimePicker.swift */; };
+		30C1D5E129EF55BC007D6624 /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */; };
 		30C9B80E29ED6C2500EFBD12 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */; };
 		30CAFA0D29EEF7F5009FD818 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */; };
 		30CAFA0F29EEF884009FD818 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0E29EEF884009FD818 /* TheToggleView.swift */; };
@@ -59,6 +60,7 @@
 		30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 		30C1D5DE29EF5131007D6624 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
 		30C9B80B29ED6B8D00EFBD12 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80C29ED6B8D00EFBD12 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */,
 				30CAFA0E29EEF884009FD818 /* TheToggleView.swift */,
 				30C1D5DE29EF5131007D6624 /* TimePicker.swift */,
+				30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
 				30E4DD4E29EE06B4005CE6BA /* YouDidItView.swift in Sources */,
+				30C1D5E129EF55BC007D6624 /* SelectActivityView.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
