@@ -16,6 +16,8 @@
 		30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */; };
 		30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */; };
 		30C9B80E29ED6C2500EFBD12 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */; };
+		30CAFA0D29EEF7F5009FD818 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */; };
+		30CAFA0F29EEF884009FD818 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0E29EEF884009FD818 /* TheToggleView.swift */; };
 		30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3DE29E968FA007A39DA /* ColorConstants.swift */; };
 		30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */; };
 		30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */; };
@@ -58,6 +60,8 @@
 		30C9B80B29ED6B8D00EFBD12 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80C29ED6B8D00EFBD12 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmToggleView.swift; sourceTree = "<group>"; };
+		30CAFA0E29EEF884009FD818 /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
 		30CEE3DE29E968FA007A39DA /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		30CEE3E229E96DDC007A39DA /* TimeAndDateSupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupportFunctions.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */,
 				30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */,
 				30E4DD5129EE137F005CE6BA /* CancelSaveAlarm.swift */,
+				30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */,
+				30CAFA0E29EEF884009FD818 /* TheToggleView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
 				30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */,
 				30E4DD4829EDFBC1005CE6BA /* ButtonView.swift in Sources */,
+				30CAFA0F29EEF884009FD818 /* TheToggleView.swift in Sources */,
 				30E4DD4029ED7D85005CE6BA /* ImageConstants.swift in Sources */,
 				30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */,
 				30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */,
@@ -342,6 +349,7 @@
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
+				30CAFA0D29EEF7F5009FD818 /* AlarmToggleView.swift in Sources */,
 				30E4DD5229EE137F005CE6BA /* CancelSaveAlarm.swift in Sources */,
 				30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
