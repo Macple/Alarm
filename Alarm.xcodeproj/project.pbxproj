@@ -29,6 +29,10 @@
 		30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */; };
 		30E4DD4829EDFBC1005CE6BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */; };
 		30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4929EDFFC4005CE6BA /* AboutView.swift */; };
+		30E4DD4C29EE05DF005CE6BA /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4B29EE05DF005CE6BA /* AddEditAlarmView.swift */; };
+		30E4DD4E29EE06B4005CE6BA /* YouDidItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4D29EE06B4005CE6BA /* YouDidItView.swift */; };
+		30E4DD5029EE0D5E005CE6BA /* ToBedWakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4F29EE0D5E005CE6BA /* ToBedWakeUpView.swift */; };
+		30E4DD5229EE137F005CE6BA /* CancelSaveAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD5129EE137F005CE6BA /* CancelSaveAlarm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		30E4DD4529EDFA81005CE6BA /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
 		30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		30E4DD4929EDFFC4005CE6BA /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		30E4DD4B29EE05DF005CE6BA /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		30E4DD4D29EE06B4005CE6BA /* YouDidItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDidItView.swift; sourceTree = "<group>"; };
+		30E4DD4F29EE0D5E005CE6BA /* ToBedWakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBedWakeUpView.swift; sourceTree = "<group>"; };
+		30E4DD5129EE137F005CE6BA /* CancelSaveAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSaveAlarm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,7 @@
 				309A8F0229E85F7A00EF7EDA /* MainAlarmView.swift */,
 				30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */,
 				30E4DD4929EDFFC4005CE6BA /* AboutView.swift */,
+				30E4DD4B29EE05DF005CE6BA /* AddEditAlarmView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -160,7 +169,9 @@
 		304F318D29E869C800B8E1F9 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				30E4DD4D29EE06B4005CE6BA /* YouDidItView.swift */,
 				30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */,
+				30E4DD4F29EE0D5E005CE6BA /* ToBedWakeUpView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 				30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */,
 				30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */,
 				30E4DD4729EDFBC1005CE6BA /* ButtonView.swift */,
+				30E4DD5129EE137F005CE6BA /* CancelSaveAlarm.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -312,10 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E4DD5029EE0D5E005CE6BA /* ToBedWakeUpView.swift in Sources */,
 				30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */,
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
 				30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
+				30E4DD4C29EE05DF005CE6BA /* AddEditAlarmView.swift in Sources */,
 				30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */,
 				30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */,
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
@@ -328,8 +342,10 @@
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
 				30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
+				30E4DD5229EE137F005CE6BA /* CancelSaveAlarm.swift in Sources */,
 				30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
+				30E4DD4E29EE06B4005CE6BA /* YouDidItView.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

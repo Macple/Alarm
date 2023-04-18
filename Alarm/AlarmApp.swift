@@ -13,7 +13,8 @@ struct AlarmApp: App {
         WindowGroup {
             //MainAlarmView()
             //SplashScreenView()
-            AboutView()
+            //AboutView()
+            AddEditAlarmView(currenAlarmIndex: 1, alarmModel: .DefaultAlarm())
         }
     }
 }
