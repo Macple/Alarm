@@ -9,13 +9,17 @@ import SwiftUI
 
 struct MainAlarmView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Alarm!")
+        TabView {
+            ListOfAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
+                .tabItem({
+                    Label("Alarms", systemImage: "alarm.fill")
+                })
+            
+            AboutView()
+                .tabItem({
+                    Label("About", systemImage: "info.circle.fill")
+                })
         }
-        .padding()
     }
 }
 
