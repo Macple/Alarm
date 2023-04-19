@@ -20,13 +20,10 @@ struct ListOfAlarmsView: View {
                         NavigationLink(destination: {
                             AddEditAlarmView(currenAlarmIndex: i, alarmModel: alarmModel)
                         }, label: {
-                            Text(" \(i) Alarm Row View")
+                            AlarmRowView(model: alarmModel, i: i)
                         })
                     }
                 }
-                
-                FourCoolCircles()
-                    .opacity(0.3)
             }
             .navigationTitle("Alarm list")
             .toolbar {

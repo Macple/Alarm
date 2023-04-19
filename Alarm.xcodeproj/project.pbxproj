@@ -28,6 +28,7 @@
 		30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E729E98579007A39DA /* AlarmModel.swift */; };
 		30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3E929E9875F007A39DA /* ActivityConstants.swift */; };
 		30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE3EB29E987DC007A39DA /* SoundConstants.swift */; };
+		30E06A0E29EFEDDF00773162 /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E06A0D29EFEDDF00773162 /* AlarmRowView.swift */; };
 		30E4DD4029ED7D85005CE6BA /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD3F29ED7D85005CE6BA /* ImageConstants.swift */; };
 		30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */; };
 		30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */; };
@@ -75,6 +76,7 @@
 		30CEE3E729E98579007A39DA /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		30CEE3E929E9875F007A39DA /* ActivityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConstants.swift; sourceTree = "<group>"; };
 		30CEE3EB29E987DC007A39DA /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
+		30E06A0D29EFEDDF00773162 /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
 		30E4DD3F29ED7D85005CE6BA /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		30E4DD4129EDF89E005CE6BA /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
 		30E4DD4329EDF9D4005CE6BA /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				30CAFA0E29EEF884009FD818 /* TheToggleView.swift */,
 				30C1D5DE29EF5131007D6624 /* TimePicker.swift */,
 				30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */,
+				30E06A0D29EFEDDF00773162 /* AlarmRowView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
 				30C1D5E329EF5F2B007D6624 /* ListOfAlarmsView.swift in Sources */,
+				30E06A0E29EFEDDF00773162 /* AlarmRowView.swift in Sources */,
 				30E4DD4C29EE05DF005CE6BA /* AddEditAlarmView.swift in Sources */,
 				30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */,
 				30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */,
