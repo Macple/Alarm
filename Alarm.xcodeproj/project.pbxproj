@@ -13,6 +13,10 @@
 		309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309A8F0229E85F7A00EF7EDA /* MainAlarmView.swift */; };
 		309A8F0529E85F7B00EF7EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A8F0429E85F7B00EF7EDA /* Assets.xcassets */; };
 		309A8F0829E85F7B00EF7EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */; };
+		30A81CC729EFF5F60044544D /* AddEditCircularAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CC629EFF5F60044544D /* AddEditCircularAlarmView.swift */; };
+		30A81CC929EFF90D0044544D /* CircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CC829EFF90D0044544D /* CircularTimeView.swift */; };
+		30A81CCC29F003890044544D /* CentralDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CCB29F003890044544D /* CentralDatePickerView.swift */; };
+		30A81CCE29F01C6F0044544D /* TimeArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CCD29F01C6F0044544D /* TimeArcView.swift */; };
 		30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */; };
 		30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */; };
 		30C1D5DF29EF5131007D6624 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5DE29EF5131007D6624 /* TimePicker.swift */; };
@@ -59,6 +63,10 @@
 		309A8F0229E85F7A00EF7EDA /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		309A8F0429E85F7B00EF7EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30A81CC629EFF5F60044544D /* AddEditCircularAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCircularAlarmView.swift; sourceTree = "<group>"; };
+		30A81CC829EFF90D0044544D /* CircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimeView.swift; sourceTree = "<group>"; };
+		30A81CCB29F003890044544D /* CentralDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDatePickerView.swift; sourceTree = "<group>"; };
+		30A81CCD29F01C6F0044544D /* TimeArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArcView.swift; sourceTree = "<group>"; };
 		30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 		30C1D5DE29EF5131007D6624 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
@@ -175,6 +183,7 @@
 				30E4DD4929EDFFC4005CE6BA /* AboutView.swift */,
 				30E4DD4B29EE05DF005CE6BA /* AddEditAlarmView.swift */,
 				30C1D5E229EF5F2B007D6624 /* ListOfAlarmsView.swift */,
+				30A81CC629EFF5F60044544D /* AddEditCircularAlarmView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 		304F318E29E869E500B8E1F9 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				30A81CCA29EFFAED0044544D /* CircularTimeView */,
 				304F318F29E86A4D00B8E1F9 /* GrayedTextView.swift */,
 				30CEE3E029E96A56007A39DA /* TimeOfDayIcon.swift */,
 				30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */,
@@ -250,6 +260,16 @@
 				309A8F0729E85F7B00EF7EDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30A81CCA29EFFAED0044544D /* CircularTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				30A81CC829EFF90D0044544D /* CircularTimeView.swift */,
+				30A81CCB29F003890044544D /* CentralDatePickerView.swift */,
+				30A81CCD29F01C6F0044544D /* TimeArcView.swift */,
+			);
+			path = CircularTimeView;
 			sourceTree = "<group>";
 		};
 		30CEE3E429E97D1B007A39DA /* Model */ = {
@@ -344,7 +364,9 @@
 			files = (
 				30E4DD5029EE0D5E005CE6BA /* ToBedWakeUpView.swift in Sources */,
 				30E4DD4429EDF9D4005CE6BA /* MainGradient.swift in Sources */,
+				30A81CC929EFF90D0044544D /* CircularTimeView.swift in Sources */,
 				309A8F0329E85F7A00EF7EDA /* MainAlarmView.swift in Sources */,
+				30A81CC729EFF5F60044544D /* AddEditCircularAlarmView.swift in Sources */,
 				30CEE3E829E98579007A39DA /* AlarmModel.swift in Sources */,
 				309A8F0129E85F7A00EF7EDA /* AlarmApp.swift in Sources */,
 				30C1D5E329EF5F2B007D6624 /* ListOfAlarmsView.swift in Sources */,
@@ -359,9 +381,11 @@
 				30CAFA0F29EEF884009FD818 /* TheToggleView.swift in Sources */,
 				30E4DD4029ED7D85005CE6BA /* ImageConstants.swift in Sources */,
 				30E4DD4629EDFA81005CE6BA /* ScreenConstants.swift in Sources */,
+				30A81CCE29F01C6F0044544D /* TimeArcView.swift in Sources */,
 				30CEE3E629E97D39007A39DA /* TimeModel.swift in Sources */,
 				30C9B80E29ED6C2500EFBD12 /* CoolTextView.swift in Sources */,
 				304F319029E86A4D00B8E1F9 /* GrayedTextView.swift in Sources */,
+				30A81CCC29F003890044544D /* CentralDatePickerView.swift in Sources */,
 				30E4DD4229EDF89E005CE6BA /* EnableNotifications.swift in Sources */,
 				30CEE3DF29E968FA007A39DA /* ColorConstants.swift in Sources */,
 				30CAFA0D29EEF7F5009FD818 /* AlarmToggleView.swift in Sources */,
