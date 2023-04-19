@@ -45,7 +45,7 @@ struct AlarmModel: Identifiable {
             alarmEnabled: false,
             start: Date(),
             //end: Date(),
-            end: addHourToDate(date: Date(), numHours: 12, numMinutes: 0),
+            end: addHourToDate(date: Date(), numHours: 0, numMinutes: 0),
             activity: activities[0],
             colorIndex: 0)
     }
