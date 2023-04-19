@@ -54,8 +54,10 @@ struct CircularTimeView: View {
                 color: .gray)
             
             // First icon
+            DisplayIconOnCircularTimeView(time: startTime, size: size, percent: startDateToPercent)
             
             // Second icon
+            DisplayIconOnCircularTimeView(time: endTime, size: size, percent: endDateToPercent)
         }
     }
 }

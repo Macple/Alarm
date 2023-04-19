@@ -22,6 +22,7 @@
 		30C1D5DF29EF5131007D6624 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5DE29EF5131007D6624 /* TimePicker.swift */; };
 		30C1D5E129EF55BC007D6624 /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */; };
 		30C1D5E329EF5F2B007D6624 /* ListOfAlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5E229EF5F2B007D6624 /* ListOfAlarmsView.swift */; };
+		30C58C6F29F0904800170900 /* DisplayIconOnCircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C58C6E29F0904800170900 /* DisplayIconOnCircularTimeView.swift */; };
 		30C9B80E29ED6C2500EFBD12 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */; };
 		30CAFA0D29EEF7F5009FD818 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0C29EEF7F5009FD818 /* AlarmToggleView.swift */; };
 		30CAFA0F29EEF884009FD818 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAFA0E29EEF884009FD818 /* TheToggleView.swift */; };
@@ -72,6 +73,7 @@
 		30C1D5DE29EF5131007D6624 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
 		30C1D5E229EF5F2B007D6624 /* ListOfAlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAlarmsView.swift; sourceTree = "<group>"; };
+		30C58C6E29F0904800170900 /* DisplayIconOnCircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIconOnCircularTimeView.swift; sourceTree = "<group>"; };
 		30C9B80B29ED6B8D00EFBD12 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80C29ED6B8D00EFBD12 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		30C9B80D29ED6C2500EFBD12 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				30A81CC829EFF90D0044544D /* CircularTimeView.swift */,
 				30A81CCB29F003890044544D /* CentralDatePickerView.swift */,
 				30A81CCD29F01C6F0044544D /* TimeArcView.swift */,
+				30C58C6E29F0904800170900 /* DisplayIconOnCircularTimeView.swift */,
 			);
 			path = CircularTimeView;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				30E4DD4A29EDFFC4005CE6BA /* AboutView.swift in Sources */,
 				30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */,
 				30E4DD4E29EE06B4005CE6BA /* YouDidItView.swift in Sources */,
+				30C58C6F29F0904800170900 /* DisplayIconOnCircularTimeView.swift in Sources */,
 				30C1D5E129EF55BC007D6624 /* SelectActivityView.swift in Sources */,
 				30CEE3E129E96A56007A39DA /* TimeOfDayIcon.swift in Sources */,
 			);
