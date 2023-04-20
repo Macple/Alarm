@@ -17,6 +17,7 @@
 		30A81CC929EFF90D0044544D /* CircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CC829EFF90D0044544D /* CircularTimeView.swift */; };
 		30A81CCC29F003890044544D /* CentralDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CCB29F003890044544D /* CentralDatePickerView.swift */; };
 		30A81CCE29F01C6F0044544D /* TimeArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A81CCD29F01C6F0044544D /* TimeArcView.swift */; };
+		30B227E029F1452E007CC045 /* SelectActivityViewExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B227DF29F1452E007CC045 /* SelectActivityViewExpanded.swift */; };
 		30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */; };
 		30BB31AF29E9B6C700172C73 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */; };
 		30C1D5DF29EF5131007D6624 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1D5DE29EF5131007D6624 /* TimePicker.swift */; };
@@ -69,6 +70,7 @@
 		30A81CC829EFF90D0044544D /* CircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimeView.swift; sourceTree = "<group>"; };
 		30A81CCB29F003890044544D /* CentralDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDatePickerView.swift; sourceTree = "<group>"; };
 		30A81CCD29F01C6F0044544D /* TimeArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArcView.swift; sourceTree = "<group>"; };
+		30B227DF29F1452E007CC045 /* SelectActivityViewExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpanded.swift; sourceTree = "<group>"; };
 		30BB31AC29E9B42B00172C73 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		30BB31AE29E9B6C700172C73 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 		30C1D5DE29EF5131007D6624 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				30C1D5DE29EF5131007D6624 /* TimePicker.swift */,
 				30C1D5E029EF55BC007D6624 /* SelectActivityView.swift */,
 				30E06A0D29EFEDDF00773162 /* AlarmRowView.swift */,
+				30B227DF29F1452E007CC045 /* SelectActivityViewExpanded.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				30E4DD4C29EE05DF005CE6BA /* AddEditAlarmView.swift in Sources */,
 				30CEE3EC29E987DC007A39DA /* SoundConstants.swift in Sources */,
 				30BB31AD29E9B42B00172C73 /* SplashScreenView.swift in Sources */,
+				30B227E029F1452E007CC045 /* SelectActivityViewExpanded.swift in Sources */,
 				30CEE3E329E96DDC007A39DA /* TimeAndDateSupportFunctions.swift in Sources */,
 				30CEE3EA29E9875F007A39DA /* ActivityConstants.swift in Sources */,
 				30C1D5DF29EF5131007D6624 /* TimePicker.swift in Sources */,
